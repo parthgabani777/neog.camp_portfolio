@@ -1,0 +1,109 @@
+:root{
+      --primary-color : #7c3aed;;
+      --light-grey : #ddd;
+      --white : white;
+}
+
+body{
+      font-family:Arial, Helvetica, sans-serif;
+      margin:0 auto;
+      max-width: 800px;
+}
+
+.container{
+      margin:0 auto;
+      max-width: 1000px;
+      text-align: center;
+}
+.container p{
+      margin-bottom: 2rem;
+}
+.aboutme-showcase p{
+      margin-bottom: 1rem;
+}
+.container div{
+      padding: 2rem;
+}
+.container div:nth-child(even){
+      background: var(--light-grey);
+}
+.photo{
+      margin-top:1rem;
+      width:300px;
+      height: 300px;
+      background: white;
+}
+.active{
+      background: var(--light-grey);
+      color: var(--primary-color);
+}
+
+nav{
+      background: var(--primary-color);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding:1rem;
+}
+
+nav a{
+      text-decoration: none;
+      color:var(--white);
+}
+
+nav h1{
+      margin: 0;
+}
+
+nav ul li{
+      list-style: none;
+      display: inline;
+}
+
+nav ul li a{
+      text-decoration: none;
+      color: var(--white);
+      padding:1rem;
+}
+nav ul li a:hover{
+      background: var(--light-grey);
+      color: var(--primary-color);
+}
+
+hr{
+      border:1px solid black;
+}
+
+.btn{
+      background-color: var(--primary-color);
+      color: var(--white);
+      text-decoration: none;
+      padding:0.7rem 1.5rem;
+      border:0;
+      font-size:1.3rem;
+}
+.btn:hover{
+      cursor: pointer;
+}
+
+.github-btn{  
+      margin: 0 1rem;
+}
+
+footer{
+      text-align: center;
+      padding: 0.5rem 0;
+      background: var(--primary-color);
+      color: var(--white);
+}
+
+footer li{
+      list-style: none;
+      display: inline;
+      margin:0 0.5rem;
+}
+
+footer img{
+      width:30px;
+      height: 30px;
+}
